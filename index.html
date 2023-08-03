@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title></title>
+    <link rel="icon" type="image/png" href="ty-assets/img/checked.png" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="ty-assets/css/main.css">
+</head>
+<body>
+    <div class="main-wrapper">
+        <header class="header">
+            <img src="ty-assets/img/logo.png" alt="logotype" class="logo-img">
+        </header>
+        <main class="main">
+            <div class="container">
+                <div class="language-switch-wrapper">
+                    <label for="languages" class="language-switch-label">Choose a language:</label>
+                    <select name="languages" id="language-switch" class="language-switch">
+                        <option value="EN" class="option">EN</option>
+                        <option value="ES" class="option">ES</option>
+                        <option value="PL" class="option">PL</option>
+                        <option value="IT" class="option">IT</option>
+                        <option value="DE" class="option">DE</option>
+                    </select>
+                </div>
+                <div class="main-content">
+                    <img src="ty-assets/img/checked.png" class="completed-img-desk" alt="completed">
+                    <img src="ty-assets/img/like.png" class="completed-img-mob" alt="completed">
+                    <h1 class="main-heading">
+                        <span class="main-heading-1st"></span> <br>
+                        <span class="main-heading-2nd"></span>
+                    </h1>
+                    <p class="thnx-text">
+                        <span class="thnx-text-1st"></span>
+                        <br><br>
+                        <span class="thnx-text-2nd"></span>
+                    </p>
+                    <div class="counter-wrapper">
+                        <div class="numbers-wrapper">
+                            <div class="numbers-block-outer">
+                                <div class="numbers-block-inner">
+                                    <span class="current-number hours">23</span> 
+                                </div>
+                            </div>
+                            <span class="time-measure hours-span"></span>
+                        </div>
+                        <div class="numbers-wrapper">
+                            <div class="numbers-block-outer">
+                                <div class="numbers-block-inner">
+                                    <span class="current-number minutes">59</span> 
+                                </div>
+                            </div>
+                            <span class="time-measure minutes-span"></span>
+                        </div>
+                        <div class="numbers-wrapper">
+                            <div class="numbers-block-outer">
+                                <div class="numbers-block-inner">
+                                    <span class="current-number seconds">59</span> 
+                                </div>
+                            </div>
+                            <span class="time-measure seconds-span"></span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <img src="ty-assets/img/main-bg-desk.jpg" class="main-bg-img-desk" alt="main background">
+            <img src="ty-assets/img/main-bg-mob.jpg" class="main-bg-img-mob" alt="main background">
+        </main>
+    </div>
+    <script src="ty-assets/js/counter.js"></script>
+    <script src="ty-assets/js/lang.js"></script>
+</body>
+</html>
